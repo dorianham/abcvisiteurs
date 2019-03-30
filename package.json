@@ -1,7 +1,7 @@
 {
     "name": "AbcVisiteurs",
     "version": "1.0.1",
-    "description": "Le moyen le plus simple de booster le trafic de votre site web.",
+    "description": "Le moyen le plus simple pour booster le trafic de votre site web.",
     "main": "system.js",
     "scripts": {
         "start": "electron .",
