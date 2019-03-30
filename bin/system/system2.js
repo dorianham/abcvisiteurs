@@ -402,7 +402,7 @@ function update_url(url)
     }
 }
 
-function kill_browsing(text="Home")
+function kill_browsing(text="Accueil")
 {
 	first_start = true;
     $('.earning').fadeOut(400).html("");
@@ -454,9 +454,9 @@ function when_its_ready()
     //adding information to the view
     setInterval(function(){
         if(navigator.onLine){
-            $("#internet").html("ONLINE");
+            $("#internet").html("En ligne");
         } else {
-            $("#internet").html("OFFLINE");
+            $("#internet").html("Hors ligne");
         }
     }, 1000);
 
